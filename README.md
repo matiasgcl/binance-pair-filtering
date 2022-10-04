@@ -1,8 +1,10 @@
 # binance-pair-filtering
 
-A very simple script, made to solve a simply but boring (to verify) question:
+A very simple script, made to solve a simply but boring (to verify) question: How to get a list of coins with only BTC pairs?
 
-> Once upon a time, Binance had savage pumps when they announced a coin without relevant (USDT/BUSD) stables pair will have one (BUSD in particular)
+Why this would matter?
+
+> Once upon a time, Binance had savage pumps when they announced a stable pair (BUSD in particular) for a coin without stables (100% of time only with BTC/ETH pair).
 
 Based upon observation that most (all) tokens without stables pairs have a BTC one, I made this simple script which runs as follows (for the case of BTC  AND no stable pairs, the script ask you what pairs you want to filter):
 
