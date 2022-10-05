@@ -39,7 +39,7 @@ result2 = [x for x in resbusd if x not in res]
 result = [x for x in result1 if x not in result2]
 filtered = []
 print('Tokens with '+subs2+' pair which does not have a '+subs1+' neither a '+subs3+' pair are:')
-print('\nFrom the previous lists, excluding non traded ones, we have (this may take a while):')
+print('\nFrom the previous list, excluding non traded ones, we have (this may take a while):')
 for i in range(len(result)):
     auxcheck = client.get_symbol_info(result[i]+subs2)
     if(auxcheck['status'] == 'TRADING'):
